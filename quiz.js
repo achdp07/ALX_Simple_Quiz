@@ -20,10 +20,10 @@ function checkAnswer() {
 
     // Step 4: Compare and display feedback
     if (userAnswer === correctAnswer) {
-        feedbackElement.textContent = "Correct! 🎉";
+        feedbackElement.textContent = "Correct well done! 🎉";
         feedbackElement.style.color = "green";
     } else {
-        feedbackElement.textContent = "Incorrect. Try again.";
+        feedbackElement.textContent = "That's incorrect. Try again!";
         feedbackElement.style.color = "red";
     }
 }
